@@ -1,3 +1,3 @@
 [build]
-command = "npm run build --prefix website"
+command = "npm install && cd website && npm run build"
 publish = "website/dist"
